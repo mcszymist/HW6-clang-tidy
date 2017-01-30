@@ -25,3 +25,7 @@ for i = 0, 20 do
     io.write("F("..i..") = "..fibo(i).."\n")
 end
 
+-- Wait for user
+io.write("\nPress ENTER to quit ")
+io.read("*l")
+

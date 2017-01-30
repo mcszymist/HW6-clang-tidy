@@ -28,6 +28,10 @@ end
 
 -- Formatted output using the function and the table entries
 io.write("Here is the secret message:\n\n")
-io.write(string.format([[%s %]]..[==[s %s %s %]==]..'s %s\n\n',
+io.write(string.format([[%s %]]..[==[s %s %s %]==]..'s %s\n',
     f(w[1]), f(w[2]), f(w[3]), f(w[4]), f(w[5]), f(w[6])))
+
+-- Wait for user
+io.write("\nPress ENTER to quit ")
+io.read("*l")
 
